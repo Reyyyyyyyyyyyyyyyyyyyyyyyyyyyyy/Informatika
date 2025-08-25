@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <form action="" method="post">
+        <div style="margin-bottom: 10px;">
+        <label for="Name:">Name:</label><br />
+        <input type="text" name="name" id="name" value="" />
+        </div>
+         <div style="margin-bottom: 10px;">
+        <label for="Email">Email:</label><br />
+        <input type="email" name="Email" id="Email" value="" />
+        </div>
+        <div style="margin-bottom: 10px;">
+    <label>Password:</label><br />
+    <input type="password" name="password" required>
+  </div>
+   <div style="margin-bottom: 10px;">
+    <label>Tanggal Lahir:</label><br />
+    <input type="date" name="Tanggal Lahir" required>
+  </div>
+   <div style="margin-bottom: 10px;">
+  <label>Gender:</label><br />
+  <input type="radio" id="male" name="gender" value="male" required />
+  <label for="male">Male</label><br />
+
+  <input type="radio" id="female" name="gender" value="female" />
+  <label for="female">Female</label><br />
+
+  <input type="radio" id="other" name="gender" value="other" />
+  <label for="other">Other</label>
+</div>
+  </div>
+  <button type="submit">Sign Up</button>
+      </form>
+  </body>
+</html>
